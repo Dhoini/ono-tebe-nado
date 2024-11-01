@@ -22,10 +22,6 @@
     padding-bottom: 51px;
 }
 
-.cover__description-text {
-    color: #FFF;
-}
-
 .cover__description {
     display: flex;
     justify-content: flex-end;
