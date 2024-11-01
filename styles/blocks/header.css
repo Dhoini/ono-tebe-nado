@@ -1,0 +1,53 @@
+.header {
+    height: 105px;
+    margin: 92px 24px;
+}
+
+.header .container {
+    display: grid;
+    grid-template-columns: 1fr 148px 1fr;
+    align-items: center;
+}
+
+.header__nav {
+    margin-left: 26px;
+}
+
+.header__links {
+    display: flex;
+    gap: 22px;
+
+    list-style-type: circle;
+}
+
+.header__links .menu-links-list {
+    letter-spacing: 1px;
+}
+
+.header .container .address {
+    justify-self: end;
+    margin-right: 60px;
+}
+
+.menu-links-list {
+    line-height: 24px;
+    transition: transform 0.3s ease;
+}
+
+.menu-links-list:hover {
+    transform: scale(1.03);
+}
+
+.active {
+    list-style-type: none;
+}
+
+.underline {
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+
+.header__logo-img {
+    width: 148px;
+}
