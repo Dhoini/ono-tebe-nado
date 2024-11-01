@@ -26,9 +26,54 @@ blockquote {
 }
 
 a {
+  font-size: 18px;
   color: inherit;
+  text-decoration: none;
 }
 
 img {
   width: 100%;
+}
+
+p{
+  color: #000;
+  font-family: Raleway, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #FFF;
+  font-family: Raleway, serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+
+.container{
+  width: 1052px;
+  margin: 0 auto;
+}
+address a {
+  font-style: normal;
+}
+
+address a:not(:last-of-type) {
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.address__list{
+
+}
+.address__list:last-child{
+  line-height: 24px;
+}
+
+.address__list-links{
+  list-style: none;
 }

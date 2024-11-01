@@ -1,1 +1,8 @@
-/* место для вашего кода */
+@import "global.css";
+@import "blocks/header.css";
+@import "blocks/cover.css";
+@import "blocks/lots.css";
+@import "blocks/about.css";
+@import "blocks/footer.css";
+
+
